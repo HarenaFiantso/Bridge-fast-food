@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMMANDE</title>
+
+    <!--LIENS CSS-->
+    <link rel="stylesheet" href="css/order.css">
+
+    <!--GOOGLE FONTS (POPPINS)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--DEBUT DE LA BARRE DE NAVIGATION-->
+    <nav>
+        <div class="nav__container">
+            <input id="nav-toggle" type="checkbox">
+            <a href="index.html"><h4>Bridge</h4></a>
+            <ul class="menu" id="menuList">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="menu.html">Menus</a></li>
+                <li><a href="about.html">A propos</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <a href="#" class="btn">CONNEXION</a>
+            <label for="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </div>
+    </nav>
+    <!--FIN DE LA BARRE DE NAVIGATION-->
+
+    <!--DEBUT DE LA SECTION DE COMMANDE-->
+
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> Effectuez votre(vos) commande </h3>
+        <h1 class="heading"> GRATUIT et RAPIDE </h1>
+    
+        <form action="">
+    
+            <div class="inputBox">
+                <div class="input">
+                    <span>Votre nom</span>
+                    <input type="text" placeholder="Entez votre nom">
+                </div>
+                <div class="input">
+                    <span>Votre numéro</span>
+                    <input type="number" placeholder="Entrez votre numéro">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Votre commande</span>
+                    <input type="text" placeholder="Entrez votre plat">
+                </div>
+                <div class="input">
+                    <span>Plat additionnel</span>
+                    <input type="test" placeholder="Entrez un plat additionnel">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Combien</span>
+                    <input type="number" placeholder="Combien de commande voulez vous">
+                </div>
+                <div class="input">
+                    <span>Date et Heure</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Votre adresse</span>
+                    <textarea name="" placeholder="Entrez votre adresse" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>Votre message</span>
+                    <textarea name="" placeholder="Entrez votre message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+    
+            <input type="submit" value="Effectuez les commandes" class="button">
+    
+        </form>
+    
+    </section>
+    
+    <!--FIN DE LA SECTION DE COMMANDE-->
+
+    <!--DEBUT DU FOOTER-->
+    <footer>
+        <div class="box_container">
+
+            <div class="box">
+                <h3>Liens Rapides</h3>
+                <a href="index.html">ACCUEIL</a>
+                <a href="menu.html">MENUS</a>
+                <a href="about.html">A PROPOS</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+
+            <div class="box">
+                <h3>Info Contact</h3>
+                <a href="">+261 38 00 000 00</a>
+                <a href="">+261 32 00 000 00</a>
+                <a href="">bff.Antananarivo@gmail.com</a>
+                <a href="">Madagascar, Antananarivo 101</a>
+            </div>
+
+            <div class="box">
+                <h3>Suivez Nous</h3>
+                <a href="">facebook</a>
+                <a href="">twitter</a>
+                <a href="">instagram</a>
+            </div>
+        </div>
+    </footer>
+    <!--FIN DU FOOTER-->
+</body>
+</html>
